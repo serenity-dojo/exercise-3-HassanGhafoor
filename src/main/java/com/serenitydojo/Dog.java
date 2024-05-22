@@ -1,9 +1,9 @@
 package com.serenitydojo;
 
 public class Dog {
-    private String name;
-    private String favoruitetoy;
-    private int age;
+    final private String name;
+    final private String favoruitetoy;
+    final private int age;
 
     public Dog(String name, String favoruitetoy, int age) {
         this.name = name;
